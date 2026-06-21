@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+header{
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background-color: #393E46;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a{
+    color: #FFD369;
+    text-decoration: none;
+    margin: 15px;
+}
+
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2{
+    color: #222831;
+}
+
+footer{
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#company-name{
+    font-size: 45px;
+}
