@@ -1,45 +1,89 @@
-body{
+body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #F5F5F5;
     color: #333;
+    margin: 0;
 }
 
-header{
+header {
     background-color: #222831;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
 }
 
-nav{
+#company-name {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+nav {
     background-color: #393E46;
     text-align: center;
     padding: 12px;
 }
 
-nav a{
+nav a {
     color: #FFD369;
     text-decoration: none;
     margin: 15px;
+    font-weight: 500;
 }
 
-section{
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
     background-color: white;
     margin: 20px;
-    padding: 20px;
+    padding: 25px;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-h2{
+section:hover {
+    transform: translateY(-3px);
+}
+
+h2 {
     color: #222831;
 }
 
-footer{
+p {
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
     background-color: #222831;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 18px;
+    margin-top: 20px;
 }
 
-#company-name{
-    font-size: 45px;
+address {
+    font-style: normal;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+
+    #company-name {
+        font-size: 35px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
 }
